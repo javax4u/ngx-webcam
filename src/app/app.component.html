@@ -31,6 +31,7 @@
 <div class="snapshot" *ngIf="webcamImage">
   <h2>Nice one!</h2>
   <img [src]="webcamImage.imageAsDataUrl"/>
+  <input type="button" placeholder="save"/>
 </div>
 
 <h4 *ngIf="errors.length > 0">Messages:</h4>
